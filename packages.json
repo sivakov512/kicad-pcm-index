@@ -18,8 +18,24 @@
       "resources": {
         "homepage": "https://github.com/sivakov512/kicad-library"
       },
-      "tags": ["datasheets", "footprints", "library", "models", "symbols"],
-      "versions": []
+      "tags": [
+        "datasheets",
+        "footprints",
+        "library",
+        "models",
+        "symbols"
+      ],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "status": "stable",
+          "kicad_version": "8.0",
+          "download_url": "https://github.com/sivakov512/kicad-library/releases/download/1.0.0/skc-1.0.0.zip",
+          "download_sha256": "45db29155da0486f9b2b98b9bb2159b08d08ea80d2dd04dbca3b632c08dc0385",
+          "download_size": 830747,
+          "install_size": 3273164
+        }
+      ]
     }
   ]
 }
