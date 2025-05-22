@@ -1,21 +1,21 @@
-{     
-    "$schema": "https://gitlab.com/kicad/code/kicad/-/raw/master/kicad/pcm/schemas/pcm.v1.schema.json#/definitions/Repository",     
-    "maintainer": {         
-        "name": "Nikita Sivakov",         
-        "contact": {             
-            "email": "contact@sivakov.dev",             
-            "web": "https://github.com/sivakov512"         
-        }     
-    },     
-    "name": "Sivakov KiCad Component Library",     
-    "packages": {         
-        "update_time_utc": "2025-05-22 02:10:00",         
-        "update_timestamp": 1716953400,         
-        "url": "https://raw.githubusercontent.com/sivakov512/kicad-pcm-index/master/packages.json"     
-    },     
-    "resources": {         
-        "update_time_utc": "2025-05-22 02:10:00",         
-        "update_timestamp": 1716953400,         
-        "url": "https://raw.githubusercontent.com/sivakov512/kicad-pcm-index/master/resources.zip"     
-    } 
+{
+  "$schema": "https://gitlab.com/kicad/code/kicad/-/raw/master/kicad/pcm/schemas/pcm.v1.schema.json#/definitions/Repository",
+  "maintainer": {
+    "name": "Nikita Sivakov",
+    "contact": {
+      "github": "https://gihub.com/sivakov512",
+      "email": "sivakov512@icloud.com"
+    }
+  },
+  "name": "Sivakov KiCad repository",
+  "packages": {
+    "update_time_utc": "2025-05-22 02:10:00",
+    "update_timestamp": 1716953400,
+    "url": "https://raw.githubusercontent.com/sivakov512/kicad-pcm-index/master/packages.json"
+  },
+  "resources": {
+    "update_time_utc": "2025-05-22 02:10:00",
+    "update_timestamp": 1716953400,
+    "url": "https://raw.githubusercontent.com/sivakov512/kicad-pcm-index/master/resources.zip"
+  }
 }
