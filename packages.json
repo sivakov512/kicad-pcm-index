@@ -2,10 +2,10 @@
   "packages": [
     {
       "$schema": "https://go.kicad.org/pcm/schemas/v1",
-      "name": "Sivakov KiCad Components",
-      "description": "Custom component library with symbols, footprints, and 3D models",
+      "name": "Sivakov KiCad Component Library",
+      "description": "Custom component library with symbols, footprints 3D models and datasheets.",
       "description_full": "A comprehensive library of electronic components including symbols, footprints, and 3D models. Organized by component categories and mounting types for easy navigation and use in KiCad projects.",
-      "identifier": "com.github.sivakov512.kicad-components",
+      "identifier": "com.github.sivakov512.kicad-library",
       "type": "library",
       "author": {
         "name": "Nikita Sivakov",
@@ -16,29 +16,10 @@
       },
       "license": "MIT",
       "resources": {
-        "homepage": "https://github.com/sivakov512/kicad-components"
+        "homepage": "https://github.com/sivakov512/kicad-library"
       },
       "tags": ["datasheets", "footprints", "library", "models", "symbols"],
-      "versions": [
-        {
-          "version": "1.0.1",
-          "status": "stable",
-          "kicad_version": "8.0",
-          "download_url": "https://github.com/sivakov512/kicad-components/releases/download/1.0.1/1.0.1.zip",
-          "download_sha256": "eda77a7e4e773730c0de79c7d5399d18cf5f3835ceac46bb94ed51bc69d922ad",
-          "download_size": 831148,
-          "install_size": 3273265
-        },
-        {
-          "version": "1.0.0",
-          "status": "stable",
-          "kicad_version": "8.0",
-          "download_url": "https://github.com/sivakov512/kicad-components/releases/download/1.0.0/1.0.0.zip",
-          "download_sha256": "b0fcfdad4ca8b8b8b6f746141ef1c8841508f529120a78b19e9288bcb2167cf0",
-          "download_size": 1626367,
-          "install_size": 4359685
-        }
-      ]
+      "versions": []
     }
   ]
 }
