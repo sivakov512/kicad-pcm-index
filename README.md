@@ -1,4 +1,4 @@
-# Sivakov KiCad PCM Repository
+# KiCad PCM Repository
 
 This repository contains Plugin and Content Manager (PCM) metadata for KiCad, providing an easy way to install the Sivakov KiCad Components.
 
