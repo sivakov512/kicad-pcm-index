@@ -1,0 +1,9 @@
+# OS specific files
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+
+# IDE files
+.ropeproject/
