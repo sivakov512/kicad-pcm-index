@@ -117,24 +117,6 @@
           "install_size": 4476700
         },
         {
-          "version": "1.0.10",
-          "status": "stable",
-          "kicad_version": "8.0",
-          "download_url": "https://github.com/sivakov512/kicad-library/releases/download/1.0.10/skc-1.0.10.zip",
-          "download_sha256": "3b1e081668121eae3635996bdb6eecee4559f5536e9b9bf3a8eb174aad51ff6b",
-          "download_size": 1024443,
-          "install_size": 4480578
-        },
-        {
-          "version": "1.0.11",
-          "status": "stable",
-          "kicad_version": "8.0",
-          "download_url": "https://github.com/sivakov512/kicad-library/releases/download/1.0.11/skc-1.0.11.zip",
-          "download_sha256": "531815a41c4a6d56a8ae559f474cdf758d21847461b891f9dfa0fcdfe5042c70",
-          "download_size": 1024442,
-          "install_size": 4480578
-        },
-        {
           "version": "1.0.12",
           "status": "stable",
           "kicad_version": "8.0",
