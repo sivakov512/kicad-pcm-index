@@ -160,6 +160,15 @@
           "download_sha256": "504923c274ceeaeb186b1e9b37edc59aba931a72460676f074142b00bf057408",
           "download_size": 2272870,
           "install_size": 11157016
+        },
+        {
+          "version": "1.0.17",
+          "status": "stable",
+          "kicad_version": "8.0",
+          "download_url": "https://github.com/sivakov512/kicad-library/releases/download/1.0.17/skc-1.0.17.zip",
+          "download_sha256": "baecb740dde619544859929621999cd618f8fb44db1aeb4dc20fffd6459cee44",
+          "download_size": 2272291,
+          "install_size": 11157784
         }
       ]
     },

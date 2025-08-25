@@ -9,13 +9,13 @@
   },
   "name": "Sivakov KiCad repository",
   "packages": {
-    "update_time_utc": "2025-08-18 01:32:27",
-    "update_timestamp": 1755480747,
+    "update_time_utc": "2025-08-25 16:11:46",
+    "update_timestamp": 1756138306,
     "url": "https://raw.githubusercontent.com/sivakov512/kicad-pcm-index/master/packages.json"
   },
   "resources": {
-    "update_time_utc": "2025-08-18 01:32:27",
-    "update_timestamp": 1755480747,
+    "update_time_utc": "2025-08-25 16:11:46",
+    "update_timestamp": 1756138306,
     "url": "https://raw.githubusercontent.com/sivakov512/kicad-pcm-index/master/resources.zip"
   }
 }
