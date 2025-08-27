@@ -18,7 +18,13 @@
       "resources": {
         "homepage": "https://github.com/sivakov512/kicad-library"
       },
-      "tags": ["datasheets", "footprints", "library", "models", "symbols"],
+      "tags": [
+        "datasheets",
+        "footprints",
+        "library",
+        "models",
+        "symbols"
+      ],
       "versions": [
         {
           "version": "1.0.0",
@@ -163,6 +169,15 @@
           "download_sha256": "baecb740dde619544859929621999cd618f8fb44db1aeb4dc20fffd6459cee44",
           "download_size": 2272291,
           "install_size": 11157784
+        },
+        {
+          "version": "1.0.18",
+          "status": "stable",
+          "kicad_version": "8.0",
+          "download_url": "https://github.com/sivakov512/kicad-library/releases/download/1.0.18/skc-1.0.18.zip",
+          "download_sha256": "a87a709502cc7098c92d58fdec6a458156417a57eef9600596fc63f7f6fc7d78",
+          "download_size": 2272291,
+          "install_size": 11157784
         }
       ]
     },
@@ -184,7 +199,12 @@
       "resources": {
         "homepage": "https://github.com/sivakov512/kicad-templates"
       },
-      "tags": ["jlcpcb", "library", "pcb", "template"],
+      "tags": [
+        "jlcpcb",
+        "library",
+        "pcb",
+        "template"
+      ],
       "versions": [
         {
           "version": "1.0.0",
