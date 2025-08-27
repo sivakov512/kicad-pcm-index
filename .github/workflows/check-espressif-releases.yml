@@ -1,0 +1,46 @@
+name: Check Espressif Library Releases
+
+on:
+  schedule:
+    # Run daily at 10:00 AM UTC
+    - cron: "0 10 * * *"
+  workflow_dispatch: # Allow manual triggering
+
+permissions:
+  contents: write
+
+jobs:
+  check-espressif-releases:
+    runs-on: ubuntu-latest
+    outputs:
+      new_release: ${{ steps.check_release.outputs.new_release }}
+      identifier: ${{ steps.check_release.outputs.identifier }}
+      version: ${{ steps.check_release.outputs.version }}
+      status: ${{ steps.check_release.outputs.status }}
+      kicad_version: ${{ steps.check_release.outputs.kicad_version }}
+      download_url: ${{ steps.check_release.outputs.download_url }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Check for new Espressif releases
+        id: check_release
+        run: |
+          cd $GITHUB_WORKSPACE
+          python scripts/check_espressif_release.py
+
+  call-add-plugin-workflow:
+    needs: check-espressif-releases
+    if: needs.check-espressif-releases.outputs.new_release == 'true'
+    uses: ./.github/workflows/add-plugin-version.yml
+    with:
+      identifier: ${{ needs.check-espressif-releases.outputs.identifier }}
+      version: ${{ needs.check-espressif-releases.outputs.version }}
+      status: ${{ needs.check-espressif-releases.outputs.status }}
+      kicad_version: ${{ needs.check-espressif-releases.outputs.kicad_version }}
+      download_url: ${{ needs.check-espressif-releases.outputs.download_url }}
