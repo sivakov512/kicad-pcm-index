@@ -331,6 +331,15 @@
           "download_sha256": "bb1bc9757cb2f2d8d89f498ea3ebbd00ca9d2bf96a94b2fb5a28bd95516e6e90",
           "download_size": 30721,
           "install_size": 69594
+        },
+        {
+          "version": "2.3.0",
+          "status": "stable",
+          "kicad_version": "8.0",
+          "download_url": "https://github.com/sivakov512/kicad-templates/releases/download/v2.3.0/skt-v2.3.0.zip",
+          "download_sha256": "015d39453c949f29dcfc89d8fbc883c059def1bad5c2746567dcf04fc4e402b6",
+          "download_size": 30722,
+          "install_size": 69594
         }
       ]
     },
