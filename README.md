@@ -27,7 +27,7 @@ Follow these steps to add this repository to KiCad:
 3. Click **Add Repository**
 4. Add this repository URL:
    ```
-   https://raw.githubusercontent.com/sivakov512/kicad-pcm-index/master/repository.json
+   https://raw.githubusercontent.com/sivakov512/kicad-pcm-index/main/repository.json
    ```
 5. Click **OK**
 6. Find the package you want to install in the list and click **Install**

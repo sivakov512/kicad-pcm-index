@@ -1,5 +1,5 @@
 {
-  "$schema": "https://gitlab.com/kicad/code/kicad/-/raw/master/kicad/pcm/schemas/pcm.v1.schema.json#/definitions/Repository",
+  "$schema": "https://gitlab.com/kicad/code/kicad/-/raw/main/kicad/pcm/schemas/pcm.v1.schema.json#/definitions/Repository",
   "maintainer": {
     "name": "Nikita Sivakov",
     "contact": {
@@ -11,11 +11,11 @@
   "packages": {
     "update_time_utc": "2025-10-08 10:04:22",
     "update_timestamp": 1759917862,
-    "url": "https://raw.githubusercontent.com/sivakov512/kicad-pcm-index/master/packages.json"
+    "url": "https://raw.githubusercontent.com/sivakov512/kicad-pcm-index/main/packages.json"
   },
   "resources": {
     "update_time_utc": "2025-10-08 10:04:22",
     "update_timestamp": 1759917862,
-    "url": "https://raw.githubusercontent.com/sivakov512/kicad-pcm-index/master/resources.zip"
+    "url": "https://raw.githubusercontent.com/sivakov512/kicad-pcm-index/main/resources.zip"
   }
 }
