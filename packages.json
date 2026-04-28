@@ -394,6 +394,15 @@
           "download_sha256": "93abd95f738ac4749200b644eaeff11e7847c4688eabf38e54f6510e70001cc0",
           "download_size": 32772,
           "install_size": 72340
+        },
+        {
+          "version": "2.4.1",
+          "status": "stable",
+          "kicad_version": "8.0",
+          "download_url": "https://github.com/sivakov512/kicad-templates/releases/download/v2.4.1/skt-v2.4.1.zip",
+          "download_sha256": "263f2ff102d13903fd3d994202bdb7f9068ccb1537df10a80250343701af4c57",
+          "download_size": 32979,
+          "install_size": 72300
         }
       ]
     },
