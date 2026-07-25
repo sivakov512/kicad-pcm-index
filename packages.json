@@ -573,6 +573,15 @@
           "download_sha256": "25d608cd9095bc9c77d9d1b46bc017d8a45de113f392ab904e070ab7132a96f7",
           "download_size": 53064646,
           "install_size": 260482190
+        },
+        {
+          "version": "3.2.1",
+          "status": "stable",
+          "kicad_version": "8.0",
+          "download_url": "https://github.com/espressif/kicad-libraries/releases/download/3.2.1/espressif-kicad-addon.zip",
+          "download_sha256": "9251d938a2f25ad1424959382ae31918b229d1b8e9de634dad7f87e4115b14f9",
+          "download_size": 55361137,
+          "install_size": 273689014
         }
       ]
     }
