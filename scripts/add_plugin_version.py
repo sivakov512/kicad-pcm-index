@@ -69,17 +69,42 @@ def download_and_calculate_metrics(url: str) -> typing.Dict[str, typing.Any]:
             fatal(f"Error extracting ZIP archive: {e}")
         
         install_size = get_directory_size(extract_dir)
+
+        metadata = None
+        metadata_path = extract_dir / "metadata.json"
+        if metadata_path.is_file():
+            with open(metadata_path) as f:
+                metadata = json.load(f)
         log.info(f"Plugin metrics - Size: {download_size} bytes, SHA256: {download_sha256[:8]}...")
         
         return {
             "download_size": download_size,
             "download_sha256": download_sha256,
-            "install_size": install_size
+            "install_size": install_size,
+            "metadata": metadata,
         }
 
 
 def get_directory_size(directory: Path) -> int:
     return sum(f.stat().st_size for f in directory.glob('**/*') if f.is_file())
+
+
+# Package fields kept in sync with the metadata.json shipped in the release archive,
+# so the description PCM shows always matches the released package.
+SYNCED_FIELDS = ["name", "description", "description_full", "author", "maintainer",
+                 "license", "resources", "tags", "keywords"]
+
+
+def sync_package_metadata(package: dict, metadata: typing.Optional[dict], identifier: str) -> None:
+    if not metadata:
+        log.warning("Archive has no metadata.json, package description left as is")
+        return
+    if metadata.get("identifier") != identifier:
+        fatal(f"Archive metadata.json is for '{metadata.get('identifier')}', not '{identifier}'")
+    for field in SYNCED_FIELDS:
+        if field in metadata and package.get(field) != metadata[field]:
+            package[field] = metadata[field]
+            log.info(f"Synced '{field}' from the release metadata.json")
 
 
 def update_packages_json(args, metrics: typing.Dict[str, typing.Any]) -> None:
@@ -101,6 +126,7 @@ def update_packages_json(args, metrics: typing.Dict[str, typing.Any]) -> None:
         for package in packages_data["packages"]:
             if package["identifier"] == args.identifier:
                 plugin_found = True
+                sync_package_metadata(package, metrics["metadata"], args.identifier)
                 
                 new_version = {
                     "version": args.version,
