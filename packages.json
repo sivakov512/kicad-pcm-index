@@ -3,7 +3,7 @@
     {
       "$schema": "https://go.kicad.org/pcm/schemas/v1",
       "name": "Sivakov KiCad Component Library",
-      "description": "Custom component library with symbols, footprints 3D models and datasheets.",
+      "description": "Custom component library with symbols, footprints, 3D models and datasheets.",
       "description_full": "A comprehensive library of electronic components including symbols, footprints, and 3D models. Organized by component categories and mounting types for easy navigation and use in KiCad projects.",
       "identifier": "com.github.sivakov512.kicad-library",
       "type": "library",
@@ -304,6 +304,15 @@
           "download_sha256": "a997c896e9f2203c84dc09adcd3be7e1708fc7d0fc38f1f68b82ea744f313f74",
           "download_size": 3649968,
           "install_size": 19020445
+        },
+        {
+          "version": "3.0.0",
+          "status": "stable",
+          "kicad_version": "10.0",
+          "download_url": "https://github.com/sivakov512/kicad-library/releases/download/v3.0.0/skc-v3.0.0.zip",
+          "download_sha256": "7f7ba91cd0ad422f594140456ffc7a33d9a317aaee2a5a9b65d9fc006c0065ba",
+          "download_size": 10084339,
+          "install_size": 55948147
         }
       ]
     },
