@@ -337,8 +337,8 @@
     {
       "$schema": "https://go.kicad.org/pcm/schemas/v1",
       "name": "Sivakov KiCad template collection",
-      "description": "KiCad templates optimized for PCB manufacturing services.",
-      "description_full": "A collection of KiCad PCB templates optimized for PCB manufacturing. Templates include preconfigured design rules and stackups to meet specific manufacturing requirements and specifications.",
+      "description": "KiCad templates optimized for PCB manufacturing services and home fabrication.",
+      "description_full": "A collection of KiCad PCB templates optimized for PCB manufacturing services and home fabrication methods. Templates include preconfigured design rules and stackups to meet specific manufacturing requirements, commercial specifications, and DIY capabilities.",
       "identifier": "com.github.sivakov512.kicad-templates",
       "type": "library",
       "author": {
@@ -356,7 +356,10 @@
         "jlcpcb",
         "library",
         "pcb",
-        "template"
+        "template",
+        "diy",
+        "home-etch",
+        "photoresist"
       ],
       "versions": [
         {
@@ -502,6 +505,15 @@
           "download_sha256": "85b4184831debdbfdbd792ea30c7a3d48c1afab88eb485e0155db9e5cbeca433",
           "download_size": 34421,
           "install_size": 73297
+        },
+        {
+          "version": "3.0.1",
+          "status": "stable",
+          "kicad_version": "8.0",
+          "download_url": "https://github.com/sivakov512/kicad-templates/releases/download/v3.0.1/skt-v3.0.1.zip",
+          "download_sha256": "2ba8a0a1f9791ae125ddaf898bcda44bb2b030d0bc35f5b1ec5a40a715661c85",
+          "download_size": 34798,
+          "install_size": 74344
         }
       ]
     },
