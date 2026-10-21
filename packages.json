@@ -358,6 +358,15 @@
           "download_sha256": "592f4993d3602fee1f08684d30dfa3cebbed82ba5494aad70ee3f7865d384f92",
           "download_size": 13782866,
           "install_size": 77455272
+        },
+        {
+          "version": "3.1.5",
+          "status": "stable",
+          "kicad_version": "10.0",
+          "download_url": "https://github.com/sivakov512/kicad-library/releases/download/v3.1.5/skc-v3.1.5.zip",
+          "download_sha256": "009cd48de523ccb4f7cb36953cd64e1af17e2ecfa67b4675212d9a0392b44026",
+          "download_size": 13780067,
+          "install_size": 77439731
         }
       ]
     },
